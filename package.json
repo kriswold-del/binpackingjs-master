@@ -4,14 +4,12 @@
 	"description": "2D, 3D, 4D Bin Packing",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/olragon/binpackingjs"
+		"url": "https://github.com/kriswold-del/binpackingjs-master"
 	},
 	"main": "app.js",
 	"scripts": {
-		"build": "webpack && BUILD_MINIFY=1 webpack",
-		"dev": "webpack --progress --colors --watch",
-		"test": "mocha --require @babel/register ./test/*.js",
-		"test-dev": "mocha --watch ./test/*.js"
+		"start": "node app.js",
+		"test": "node app.js"
 	},
 	"browserslist": [
 		"defaults"
