@@ -6,7 +6,7 @@
 		"type": "git",
 		"url": "https://github.com/olragon/binpackingjs"
 	},
-	"main": "dist/BinPacking.min.js",
+	"main": "app.js",
 	"scripts": {
 		"build": "webpack && BUILD_MINIFY=1 webpack",
 		"dev": "webpack --progress --colors --watch",
